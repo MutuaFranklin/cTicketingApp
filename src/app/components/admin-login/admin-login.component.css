@@ -1,0 +1,22 @@
+.login{
+  background-color: aliceblue;
+  height: 100vh;
+
+}
+h5{
+  font-family: 'Pacifico', cursive;
+  font-size: 20px;
+
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+.panel-heading{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
