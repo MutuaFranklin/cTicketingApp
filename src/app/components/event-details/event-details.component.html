@@ -224,7 +224,7 @@
 
                 </div>
                 <div id="airtel-details">
-                  <p>Send Airtel Money Ksh. 500.00 to nick-name PESAPAL. Submit the Transaction ID below.</p>
+                  <p>Send Airtel Money Ksh. {{(event.vip_ticket * vipTickets) + (event.regular_ticket * regularTickets) | number:'1.2-2'}} to nick-name PESAPAL. Submit the Transaction ID below.</p>
                   <p>1. Go to Airtel Money on your phone</p>
                   <p>2. Select Send Money Option</p>
                   <p>3. Select Enter Nick-Name Option</p>
