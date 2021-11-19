@@ -178,7 +178,7 @@
               </div>
               <div class="payment-instructions  container-fluid mt-3">
                 <div id="mpesa-details">
-                  <p >Send M-PESA Ksh. 500.00 to Pay Bill Business number 303355. Submit the Confirmation Code below.</p>
+                  <p >Send M-PESA Ksh. {{(event.vip_ticket * vipTickets) + (event.regular_ticket * regularTickets) | number:'1.2-2'}} to Pay Bill Business number 303355. Submit the Confirmation Code below.</p>
                   <p>1. Go to M-PESA on your phone</p>
                   <p>2. Select Pay Bill option</p>
                   <p>3. Enter Business no. 303355</p>
