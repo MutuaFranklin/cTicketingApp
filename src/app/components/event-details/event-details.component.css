@@ -26,6 +26,19 @@
   align-items: center;
 }
 
+.grab-ticket{
+  background-color: rgb(85, 8, 92) !important;
+  border: none; box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.grab-ticket:hover{
+  filter:drop-shadow(8px 8px 10px rgb(19, 19, 19));
+  background-color: rgb(81, 47, 206) !important;
+
+
+}
+
 .customer{
   display: flex;
   flex-direction: column;
